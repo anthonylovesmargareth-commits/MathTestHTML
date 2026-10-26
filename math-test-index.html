@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test</title>
+</head>
+<body>
+    <h1>Math Test</h1>
+    <p>Answer each question, then click Submit.</p>
+
+    <!-- Start of the test -->
+    <form action="#" method="post">
+        <label for="student-name">Name:</label>
+        <input type="text" id="student-name" name="student-name" required>
+
+        <hr>
+
+        <fieldset>
+            <legend>1. What is 7 + 5?</legend>
+            <label><input type="radio" name="question1" value="10" required> 10</label><br>
+            <label><input type="radio" name="question1" value="12"> 12</label><br>
+            <label><input type="radio" name="question1" value="13"> 13</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. What is 9 × 3?</legend>
+            <label><input type="radio" name="question2" value="18" required> 18</label><br>
+            <label><input type="radio" name="question2" value="27"> 27</label><br>
+            <label><input type="radio" name="question2" value="36"> 36</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. What is 20 ÷ 4?</legend>
+            <label><input type="radio" name="question3" value="4" required> 4</label><br>
+            <label><input type="radio" name="question3" value="5"> 5</label><br>
+            <label><input type="radio" name="question3" value="6"> 6</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>4. Word Problem</legend>
+            <p>Jordan has 3 bags with 6 apples in each bag. Jordan gives 4 apples to a friend. How many apples are left? Explain how you solved it.</p>
+            <label for="word-problem-answer">Your answer:</label><br>
+            <textarea id="word-problem-answer" name="word-problem-answer" rows="5" cols="45" required></textarea>
+        </fieldset>
+
+        <p>Math symbols: &plus; (addition), &times; (multiplication), &divide; (division), and &le; (less than or equal to).</p>
+
+        <button type="submit">Submit</button>
+    </form>
+    <!-- End of the test -->
+</body>
+</html>
